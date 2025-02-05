@@ -63,7 +63,7 @@ public class AlarmGUI extends JFrame {
                         countdownTimer.stop();
                         statusLabel.setText("Times up!, Your Alarm is Ringing");
                         // Play sound on a separate thread so UI doesn't freeze
-                        new Thread(() -> playSound("D:\\Downloads\\Music\\lh44.mp3")).start();
+                        new Thread(() -> playSound("D:\\IntelliJ_Projects\\java101\\src\\com\\qadi\\Alarm_Sound.mp3")).start();
                         startButton.setEnabled(true);
                     }
                 }

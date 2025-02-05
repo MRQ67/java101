@@ -16,7 +16,7 @@ public class Alarm {
             @Override
             public void run() {
                 System.out.println("Times up!");
-                playSound("D:\\Downloads\\Music\\lh44.mp3");
+                playSound("D:\\IntelliJ_Projects\\java101\\src\\com\\qadi\\Alarm_Sound.mp3");
                 timer.cancel();
             }
         };
